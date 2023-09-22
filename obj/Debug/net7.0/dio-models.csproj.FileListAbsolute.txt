@@ -1,0 +1,4 @@
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.AssemblyInfoInputs.cache
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.AssemblyInfo.cs
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.csproj.CoreCompileInputs.cache
