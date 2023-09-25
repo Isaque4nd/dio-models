@@ -2,3 +2,13 @@ C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\n
 C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.AssemblyInfoInputs.cache
 C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.AssemblyInfo.cs
 C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.csproj.CoreCompileInputs.cache
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\bin\Debug\net7.0\dio-models.exe
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\bin\Debug\net7.0\dio-models.deps.json
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\bin\Debug\net7.0\dio-models.runtimeconfig.json
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\bin\Debug\net7.0\dio-models.dll
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\bin\Debug\net7.0\dio-models.pdb
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.dll
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\refint\dio-models.dll
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.pdb
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\dio-models.genruntimeconfig.cache
+C:\Users\INFOCENTER AUTOMAÇÃO\Desktop\Projetos\DIO\.NET\dio-models\obj\Debug\net7.0\ref\dio-models.dll
