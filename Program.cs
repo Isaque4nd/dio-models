@@ -1,7 +1,7 @@
 ﻿using diomodels.Models;
 
 
-Calculadora calc = new Calculadora();
+//Calculadora calc = new Calculadora();
 
 
 //calc.Somar(10, 3);
@@ -14,7 +14,7 @@ Calculadora calc = new Calculadora();
 //calc.Seno(40);
 //calc.Conseno(30);
 //calc.Tangente(50);
-calc.RaizQuadrada(9);
+//calc.RaizQuadrada(9);
 //int numeroIncremento = 10;
 
 //Console.Write(numeroIncremento);
@@ -36,17 +36,14 @@ calc.RaizQuadrada(9);
 //Console.WriteLine(numeroDecremento);
 
 
-
-
-
-
-
-
-
-
-
 //Pessoa pessoa = new Pessoa();
 
 //pessoa.Nome = "Isaque";
 //pessoa.Idade = 21;
 //pessoa.Apresentar();
+
+int numero = 1;
+
+for(int contador = 0; contador <=10; contador ++) {
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
