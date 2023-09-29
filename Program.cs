@@ -58,15 +58,57 @@ using diomodels.Models;
 //  contador++;
 //}
 
-int soma = 0, numero = 0;
+//int soma = 0, numero = 0;
 
-do
+//do
+//{
+//    Console.WriteLine("Digite um número (0 para parar)");
+//    numero = Convert.ToInt32(Console.ReadLine());
+
+//    soma += numero;
+
+//} while(numero != 0);
+
+//Console.WriteLine($"Total da soma dos números digitados é: {soma}");
+
+
+string opcao;
+bool exibirMenu = true;
+
+while(exibirMenu)
 {
-    Console.WriteLine("Digite um número (0 para parar)");
-    numero = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Digite a sua opção:");
+    Console.WriteLine("1 - Cadastrar usuário");
+    Console.WriteLine("2 - Buscar usuário");
+    Console.WriteLine("3 - Apagar usuário");
+    Console.WriteLine("4 - Fechar");
 
-    soma += numero;
+    opcao = Console.ReadLine();
 
-} while(numero != 0);
+    switch(opcao)
+    {
+        case "1":
+            Console.WriteLine("Você selecionou a função de Cadastro");
+            break;
+        
+        case "2":
+            Console.WriteLine("Você selecionou a função de Busca");
+            break;
 
-Console.WriteLine($"Total da soma dos números digitados é: {soma}");
+        case "3":
+            Console.WriteLine("Você selecionou a função de Apagar");
+            break;
+
+        case "4":
+            Console.WriteLine("Você selecionou a função de Fechar");
+            exibirMenu = false;
+            break;
+
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
+    }
+
+}
+
+Console.WriteLine("O programa foi finalizado");
