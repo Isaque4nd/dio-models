@@ -42,8 +42,17 @@
 //pessoa.Idade = 21;
 //pessoa.Apresentar();
 
-int numero = 1;
+//int numero = 1;
 
-for(int contador = 0; contador <=10; contador ++) {
-    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//for(int contador = 0; contador <=10; contador ++) {
+//    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+//}
+int numero = 1;
+int contador = 0;
+
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{contador + 1}º Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
 }
