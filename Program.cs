@@ -114,33 +114,65 @@ using diomodels.Models;
 //Console.WriteLine("O programa foi finalizado");
 
 
-int[] arrayInteiros = new int[3];
+// int[] arrayInteiros = new int[3];
 
-arrayInteiros[0] = 30;
-arrayInteiros[1] = 50;
-arrayInteiros[2] = 70;
+// arrayInteiros[0] = 30;
+// arrayInteiros[1] = 50;
+// arrayInteiros[2] = 70;
 
 
 // Copia os dados de um array já criado e passa para outro
 //int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
 //Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
-Console.WriteLine("Percorrendo array com o FOR");
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
-{
-    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
-}
+// Console.WriteLine("Percorrendo array com o FOR");
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+// }
 
 //aumenta o tamanhodo array copiando os parametrs já criados no array inicial
 // Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
-Console.WriteLine("Percorrendo array com o FOREACH");
+// Console.WriteLine("Percorrendo array com o FOREACH");
 
-int contadorForeach = 0;
-foreach(int valor in arrayInteiros)
+// int contadorForeach = 0;
+// foreach(int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+//     contadorForeach++;
+// }
+
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);// 
+
+
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("SC");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+Console.WriteLine("Percorrendo a lista com o FOR");
+for (int contador = 0; contador < listaString.Count; contador++)
 {
-    Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
-    contadorForeach++;
+    Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
 }
 
-Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+Console.WriteLine("\nPercorrendo a lista com o FOREACH");
+int contadorForeach = 0;
+foreach(string item in listaString)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {item}");
+    contadorForeach++;
+}
