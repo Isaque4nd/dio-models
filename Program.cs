@@ -72,43 +72,75 @@ using diomodels.Models;
 //Console.WriteLine($"Total da soma dos números digitados é: {soma}");
 
 
-string opcao;
-bool exibirMenu = true;
+//string opcao;
+//bool exibirMenu = true;
 
-while(exibirMenu)
+//while(exibirMenu)
+//{
+//    Console.WriteLine("Digite a sua opção:");
+//    Console.WriteLine("1 - Cadastrar usuário");
+//    Console.WriteLine("2 - Buscar usuário");
+//    Console.WriteLine("3 - Apagar usuário");
+//    Console.WriteLine("4 - Fechar");
+//
+//    opcao = Console.ReadLine();
+
+//    switch(opcao)
+//    {
+//        case "1":
+//            Console.WriteLine("Você selecionou a função de Cadastro");
+//            break;
+//        
+//        case "2":
+//            Console.WriteLine("Você selecionou a função de Busca");
+//            break;
+
+//        case "3":
+//            Console.WriteLine("Você selecionou a função de Apagar");
+//            break;
+
+//        case "4":
+//            Console.WriteLine("Você selecionou a função de Fechar");
+//            exibirMenu = false;
+//            break;
+
+//        default:
+//            Console.WriteLine("Opção inválida");
+//            break;
+//    }
+
+//}
+
+//Console.WriteLine("O programa foi finalizado");
+
+
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 30;
+arrayInteiros[1] = 50;
+arrayInteiros[2] = 70;
+
+
+// Copia os dados de um array já criado e passa para outro
+//int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+//Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+Console.WriteLine("Percorrendo array com o FOR");
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
 {
-    Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar usuário");
-    Console.WriteLine("2 - Buscar usuário");
-    Console.WriteLine("3 - Apagar usuário");
-    Console.WriteLine("4 - Fechar");
-
-    opcao = Console.ReadLine();
-
-    switch(opcao)
-    {
-        case "1":
-            Console.WriteLine("Você selecionou a função de Cadastro");
-            break;
-        
-        case "2":
-            Console.WriteLine("Você selecionou a função de Busca");
-            break;
-
-        case "3":
-            Console.WriteLine("Você selecionou a função de Apagar");
-            break;
-
-        case "4":
-            Console.WriteLine("Você selecionou a função de Fechar");
-            exibirMenu = false;
-            break;
-
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
-    }
-
+    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
 }
 
-Console.WriteLine("O programa foi finalizado");
+//aumenta o tamanhodo array copiando os parametrs já criados no array inicial
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+Console.WriteLine("Percorrendo array com o FOREACH");
+
+int contadorForeach = 0;
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+    contadorForeach++;
+}
+
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);

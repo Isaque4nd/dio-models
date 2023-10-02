@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj": {}
+    "c:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj": {
+    "c:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj",
+        "projectUniqueName": "c:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj",
         "projectName": "dio-models",
-        "projectPath": "C:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj",
+        "projectPath": "c:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\dio-models.csproj",
         "packagesPath": "C:\\Users\\INFOCENTER AUTOMAÇÃO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\obj\\",
+        "outputPath": "c:\\Users\\INFOCENTER AUTOMAÇÃO\\Desktop\\Projetos\\DIO\\.NET\\dio-models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\INFOCENTER AUTOMAÇÃO\\AppData\\Roaming\\NuGet\\NuGet.Config"
